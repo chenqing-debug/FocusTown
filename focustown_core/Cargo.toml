@@ -1,0 +1,11 @@
+[package]
+name = "focustown_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "focustown_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.28.2", features = ["extension-module"] }
